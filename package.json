@@ -1,0 +1,26 @@
+{
+  "name": "paperpanacea",
+  "version": "1.0.0",
+  "description": "Paper Panacea web app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdaitzman/PaperPanacea.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdaitzman/PaperPanacea/issues"
+  },
+  "homepage": "https://github.com/sdaitzman/PaperPanacea#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
