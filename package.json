@@ -22,6 +22,11 @@
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "parcel-bundler": "^1.12.4",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.1",
+    "vue-template-compiler": "^2.6.10"
   }
 }
