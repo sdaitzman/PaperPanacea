@@ -9,6 +9,7 @@
 import Camera from "./components/Camera.vue"
 
 export default {
+    components: {Camera},
     data() {
         return {
             bundler: "Parcel",
