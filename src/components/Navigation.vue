@@ -40,7 +40,7 @@ export default {
           text: 'Science',
           page:'/Science'
         },
-        {
+        {// this is a 
           id: 5,
           text: 'Submit',
           page:'/Submit'
