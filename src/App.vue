@@ -1,8 +1,7 @@
 <template>
     <div id="app">
-        <router-view></router-view>
         <Navigation></Navigation>
-        <span>kamsdmsad</span>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -23,7 +22,6 @@ export default {
 </script>
 
 <style>
-div {
-    color: red;
-}
+
+
 </style>

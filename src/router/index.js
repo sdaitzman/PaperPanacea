@@ -17,6 +17,10 @@ export default new Router({
     base: '/',
     routes: [
         {
+            path: '/',
+            redirect: '/home'
+        },
+        {
             path: '/home',
             name: 'Home',
             component: Home
@@ -24,23 +28,22 @@ export default new Router({
         {
             path: '/about',
             name: 'About',
-            component: About,
-            children: [
-                {
-                    path: '/project',
-                    name: 'Project',
-                    component: Project
-                },
-                {
-                    path: '/science',
-                    name: 'Science',
-                    component: Science
-                },
-                {
-                    path: '/Team',
-                    name: 'Team',
-                    component: Team
-                }]
+            component: About
+        },
+        {
+            path: '/about/project',
+            name: 'Project',
+            component: Project
+        },
+        {
+            path: '/about/science',
+            name: 'Science',
+            component: Science
+        },
+        {
+            path: '/about/team',
+            name: 'Team',
+            component: Team
         },
         {
             path: '/submit',
