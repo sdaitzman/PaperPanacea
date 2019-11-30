@@ -14,7 +14,6 @@
 
 <script>
   import $ from 'jquery';
-
   let document = window.document;
   $( document ).ready(function() {
     let cv = window.cv;
@@ -30,11 +29,9 @@
     const supported = 'mediaDevices' in window.navigator;
     var takingVideo = false;
     window.console.log(supported);
-
     function updateImage(event) {
       imgElement.src = URL.createObjectURL(event.target.files[0]);
     }
-
     function processImage() {
       let src = cv.imread(imgElement);
       let dst = new cv.Mat();
@@ -42,7 +39,6 @@
       cv.imshow('imgOutput', dst);
       dst.delete();
     }
-
     function toggleVideoStream() {
       if (takingVideo) {
         videoViewer.srcObject.getVideoTracks().forEach(track => track.stop());
@@ -62,7 +58,6 @@
         takingVideo = true;
       }
     }
-
     function takePicture() {
       if (takingVideo) {
         cameraOutput.hidden = false;
@@ -73,25 +68,16 @@
         takingVideo = false;
       }
     }
-
     fileUpload.addEventListener("change", updateImage, false);
-
     cameraInput.addEventListener("change",updateImage, false);
-
     imgElement.onload = processImage;
-
     captureButton.addEventListener('click', toggleVideoStream);
-
     takePictureButton.addEventListener('click', takePicture);
-
   });
-
   export default {
     props: {}
   }
-
 </script>
 
   <style scoped>
-
 </style>

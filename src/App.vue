@@ -1,26 +1,27 @@
 <template>
     <div id="app">
-        Hello {{name}}!
-        <Camera></Camera>
+        <Navigation></Navigation>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-import Camera from "./components/Camera.vue"
 
+import Navigation from './components/Navigation'
 export default {
-    components: {Camera},
+    name: 'app',
+    components: {
+        'Navigation': Navigation
+    },
     data() {
         return {
-            bundler: "Parcel",
-            name: window.prompt('What is your name?')
+            bundler: "Parcel"
         };
     }
 }
 </script>
 
 <style>
-div {
-    color: red;
-}
+
+
 </style>
