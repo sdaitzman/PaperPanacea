@@ -1,0 +1,32 @@
+<template>
+  <div id="camerafeed">
+    <img id="imageSrc" alt="No Image" />
+    <div class="caption">imageSrc<br>
+      <input type="file" id="fileInput" name="file" />
+    </div>
+  </div>
+</template>
+
+<script>
+  import $ from 'jquery';
+
+  let cv = window.cv;
+  let document = window.document;
+  $( document ).ready(function() {
+    window.console.log(cv);
+    let imgElement = document.getElementById("imageSrc");
+    let inputElement = document.getElementById("fileInput");
+    inputElement.addEventListener("change", (e) => {
+      imgElement.src = URL.createObjectURL(e.target.files[0]);
+      }, false);
+  });
+
+  export default {
+    props: {}
+  }
+
+</script>
+
+  <style scoped>
+
+</style>

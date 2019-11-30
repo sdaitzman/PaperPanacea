@@ -1,13 +1,15 @@
 <template>
   <div>
     <h1>Submit</h1>
-    <p>Here is some information. This is the home page</p>
+    <Camera></Camera>
   </div>
 </template>
 
 <script>
+import Camera from "./Camera"
 export default {
-  name: 'Submit' //this is the name of the component
+  name: 'Submit', //this is the name of the component
+  components: {Camera}
 }
 </script>
 <style>
