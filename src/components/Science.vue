@@ -14,6 +14,9 @@
         <p>After finding the right concentrations to cause a visible reaction, our team created a calibration curve where they figured out what color appears for what known concentration of lead. From this, we developed an app that analyzes the color of the device from a photo and identifies the approximate lead concentration based off of our known data.</p>
       </div>
     </div>
+    <div class="lead-infographic">
+      <img id="lead" src="../assets/leadinfographic.jpg" alt="lead infographic" width="800">
+      </div>
   </div>
 </template>
 
@@ -25,10 +28,14 @@ export default {
 <style>
 
 .container {
-  height: 100vh;
+  height: 100%;
   min-width: 800px;
   background: #e5e5e5;
   text-align: center;
+}
+
+#lead {
+  margin-bottom: 30px;
 }
 
 .about {

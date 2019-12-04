@@ -6,6 +6,7 @@
         <p>This project is a citizen science endeavor to give average people the ability to understand and advocate for their own health and safety, starting with the water they use every day. Rather than just developing the technique for detecting lead, or teaching people about lead safety, we focused on an all-in-one system.</p>
       </div>
     </div>
+    <div class="subteam-wrapper">
     <div class="subteam">
       <div class="text">
         <h3>Chemistry</h3>
@@ -24,12 +25,13 @@
         <p>We wanted to make sure that every step of the process, from the development of the kit to its usage, was clearly communicated and easy-to-understand. (Not to mention, a little stylish). As such, our team dedicated time to developing clear instructions on the usage of the kit, the design of this website, and infographics that highlight how to deal with contaminated water.</p>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Prject' //this is the name of the component
+  name: 'Project' //this is the name of the component
 }
 </script>
 <style>
@@ -43,6 +45,12 @@ export default {
   text-align: left;
   padding: 10px 20px;
   margin-bottom: 15px;
+}
+
+.subteam-wrapper {
+  margin: auto;
+  max-width: 800px;
+
 }
 
 .about {

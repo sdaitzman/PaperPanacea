@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="logo">
-      <div class="temp-logo">logo here</div>
+      <img src="../assets/PaperlogoFinal.png" alt="logo" width="500">
     </div>
     <div class="what-we-do">
       <div class="text">
@@ -28,8 +28,8 @@ export default {
 
 <style>
 .logo {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container {
