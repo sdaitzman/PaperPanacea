@@ -8,7 +8,9 @@
         <h1>What We Do</h1>
         <p>We provide citizen science kits that allow for in-home lead detection. Our kits are non-toxic and designed for ease of use, even by those with little or no chemistry background. Included in our kit are paper detection pads that are dosed with a chemical that will react with lead in water and darken color depending on how much lead there is. Using our app, you can analyze the photo and get an approximation of how much lead is in your water--as well as if it’s safe to drink or bathe with. We also provide citizens with resources on how to deal with contaminated water.</p>
       </div>
-      <router-link to="/about/project" class="button">Project</router-link>
+      <div class="button">
+        <p>Read More<p>
+        </div>
     </div>
     <div class="map-container">
       <h2>Live Data Map</h2>
@@ -30,6 +32,10 @@ export default {
   padding-bottom: 50px;
 }
 
+img {
+  padding-top: 20px;
+}
+
 .container {
   height: 100vh;
   min-width: 800px;
@@ -43,6 +49,7 @@ export default {
   margin-bottom: 30px;
 }
 
+
 .what-we-do p {
   font-family: "Open Sans", sans-serif;
   max-width: 800px;
@@ -51,10 +58,6 @@ export default {
 }
 
 .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
   background: #2595ad;
   color: white;
   width: 9em;
