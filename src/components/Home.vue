@@ -12,6 +12,13 @@
         <p>Read More<p>
         </div>
     </div>
+    <div class="poster-container">
+
+    <div class="lead-infographic">
+      <img id="lead" src="../assets/PaperPoster-page-001.jpg" alt="lead infographic" width="800">
+      </div>
+
+  </div>
     <div class="map-container">
       <h2>Live Data Map</h2>
       <div class="live-map-container">
@@ -37,7 +44,7 @@ img {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
   min-width: 800px;
   background: #e5e5e5;
   text-align: center;
@@ -49,12 +56,20 @@ img {
   margin-bottom: 30px;
 }
 
+.poster-container {
+  background: #e5e5e5;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 
 .what-we-do p {
   font-family: "Open Sans", sans-serif;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-size:medium;
 }
 
 .button {

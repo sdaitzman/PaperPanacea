@@ -29,13 +29,17 @@ export default {
 
 .container {
   height: 100%;
+  width: 100%;
   min-width: 800px;
   background: #e5e5e5;
   text-align: center;
+  display: inline-block;
 }
+
 
 #lead {
   margin-bottom: 30px;
+
 }
 
 .about {
@@ -51,6 +55,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-weight: medium;
 }
 
 </style>

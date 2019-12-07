@@ -36,15 +36,19 @@ export default {
 </script>
 <style>
 .container {
-  height: 100vh;
+  min-height: 100%;
+  width: 100%;
+  min-width: 800px;
   background: #e5e5e5;
   text-align: center;
+  display: inline-block;
 }
 
 .subteam {
   text-align: left;
   padding: 10px 20px;
   margin-bottom: 15px;
+  height:100%;
 }
 
 .subteam-wrapper {
@@ -65,6 +69,10 @@ export default {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.text p {
+  font-size: medium;
 }
 
 </style>

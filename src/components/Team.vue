@@ -126,7 +126,7 @@ p {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
   min-width: 800px;
   background: #e5e5e5;
 }

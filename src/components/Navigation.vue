@@ -11,6 +11,7 @@
             <router-link to="/about/team">Team</router-link>
           </div>
         </div>
+        <router-link to="/microfluidics">Microfluidics</router-link>
         <router-link to="/data">Data</router-link>
         <router-link to="/submit">Submit</router-link>
 

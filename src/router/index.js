@@ -8,6 +8,7 @@ import Project from '../components/Project'
 import Science from '../components/Science'
 import Submit from '../components/Submit'
 import Team from '../components/Team'
+import Microfluidics from '../components/Microfluidics'
 
 
 Vue.use(Router)
@@ -54,6 +55,11 @@ export default new Router({
             path: '/data',
             name: 'Data',
             component: Data
+        },
+        {
+            path: '/microfluidics',
+            name: 'Microfluidics',
+            component: Microfluidics
         }
     ],
 });
