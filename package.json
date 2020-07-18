@@ -20,7 +20,7 @@
   "homepage": "https://github.com/sdaitzman/PaperPanacea#readme",
   "dependencies": {
     "jquery": "^3.4.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "normalize.css": "^8.0.1",
     "opencv.js": "^1.2.1",
     "parcel-bundler": "^1.12.4",
